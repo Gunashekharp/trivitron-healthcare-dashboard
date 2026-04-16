@@ -1,0 +1,1510 @@
+{
+  "kind": "generic",
+  "selectedSheet": "Project Management Data",
+  "schemaProfile": [
+    {
+      "name": "Project Management Data",
+      "rowCount": 48,
+      "columnCount": 7,
+      "columns": [
+        {
+          "key": "Excel Sample Data",
+          "label": "Excel Sample Data",
+          "sampleValues": [
+            "Project Management Data",
+            "Project Name",
+            "Marketing",
+            "Marketing",
+            "Marketing"
+          ],
+          "nullCount": 0,
+          "nullRate": 0,
+          "uniqueCount": 17,
+          "numericRatio": 0,
+          "dateRatio": 0,
+          "averageLength": 9.416666666666666
+        },
+        {
+          "key": "Column_2",
+          "label": "Column_2",
+          "sampleValues": [
+            "Task Name",
+            "Market Research",
+            "Content Creation",
+            "Social Media Planning",
+            "Campaign Analysis"
+          ],
+          "nullCount": 1,
+          "nullRate": 0.020833333333333332,
+          "uniqueCount": 47,
+          "numericRatio": 0,
+          "dateRatio": 0,
+          "averageLength": 17.617021276595743
+        },
+        {
+          "key": "Column_3",
+          "label": "Column_3",
+          "sampleValues": [
+            "Assigned to",
+            "Alice",
+            "Bob",
+            "Charlie",
+            "Daisy"
+          ],
+          "nullCount": 1,
+          "nullRate": 0.020833333333333332,
+          "uniqueCount": 43,
+          "numericRatio": 0,
+          "dateRatio": 0,
+          "averageLength": 5.170212765957447
+        },
+        {
+          "key": "Column_4",
+          "label": "Column_4",
+          "sampleValues": [
+            "Start Date",
+            "1/1/24",
+            "1/14/24",
+            "1/28/24",
+            "2/18/24"
+          ],
+          "nullCount": 1,
+          "nullRate": 0.020833333333333332,
+          "uniqueCount": 30,
+          "numericRatio": 0,
+          "dateRatio": 0.9787234042553191,
+          "averageLength": 6.531914893617022
+        },
+        {
+          "key": "Column_5",
+          "label": "Column_5",
+          "sampleValues": [
+            "Days Required",
+            "13",
+            "14",
+            "22",
+            "25"
+          ],
+          "nullCount": 1,
+          "nullRate": 0.020833333333333332,
+          "uniqueCount": 19,
+          "numericRatio": 0.9787234042553191,
+          "dateRatio": 0.2127659574468085,
+          "averageLength": 2.234042553191489
+        },
+        {
+          "key": "Column_6",
+          "label": "Column_6",
+          "sampleValues": [
+            "End Date",
+            "1/14/24",
+            "1/28/24",
+            "2/19/24",
+            "3/14/24"
+          ],
+          "nullCount": 1,
+          "nullRate": 0.020833333333333332,
+          "uniqueCount": 35,
+          "numericRatio": 0,
+          "dateRatio": 0.9787234042553191,
+          "averageLength": 6.851063829787234
+        },
+        {
+          "key": "Column_7",
+          "label": "Column_7",
+          "sampleValues": [
+            "Progress",
+            "78%",
+            "100%",
+            "45%",
+            "0%"
+          ],
+          "nullCount": 1,
+          "nullRate": 0.020833333333333332,
+          "uniqueCount": 13,
+          "numericRatio": 0.9787234042553191,
+          "dateRatio": 0.9148936170212766,
+          "averageLength": 2.8297872340425534
+        }
+      ]
+    }
+  ],
+  "validationIssues": [
+    {
+      "code": "blank_header",
+      "severity": "warning",
+      "message": "A blank header was renamed to Column_2.",
+      "columnKey": "Column_2",
+      "columnLabel": "Column_2",
+      "sheetName": "Project Management Data"
+    },
+    {
+      "code": "blank_header",
+      "severity": "warning",
+      "message": "A blank header was renamed to Column_3.",
+      "columnKey": "Column_3",
+      "columnLabel": "Column_3",
+      "sheetName": "Project Management Data"
+    },
+    {
+      "code": "blank_header",
+      "severity": "warning",
+      "message": "A blank header was renamed to Column_4.",
+      "columnKey": "Column_4",
+      "columnLabel": "Column_4",
+      "sheetName": "Project Management Data"
+    },
+    {
+      "code": "blank_header",
+      "severity": "warning",
+      "message": "A blank header was renamed to Column_5.",
+      "columnKey": "Column_5",
+      "columnLabel": "Column_5",
+      "sheetName": "Project Management Data"
+    },
+    {
+      "code": "blank_header",
+      "severity": "warning",
+      "message": "A blank header was renamed to Column_6.",
+      "columnKey": "Column_6",
+      "columnLabel": "Column_6",
+      "sheetName": "Project Management Data"
+    },
+    {
+      "code": "blank_header",
+      "severity": "warning",
+      "message": "A blank header was renamed to Column_7.",
+      "columnKey": "Column_7",
+      "columnLabel": "Column_7",
+      "sheetName": "Project Management Data"
+    },
+    {
+      "code": "no_category_field",
+      "severity": "warning",
+      "message": "No strong category field was detected. Category breakdown charts may be limited.",
+      "sheetName": "Project Management Data"
+    }
+  ],
+  "mapping": {
+    "selectedSheet": "Project Management Data",
+    "columns": [
+      {
+        "columnKey": "Excel Sample Data",
+        "columnLabel": "Excel Sample Data",
+        "role": "text",
+        "confidence": 0.3,
+        "reason": "values look categorical",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "category",
+            "confidence": 0.3,
+            "reason": "values look categorical"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "text",
+            "confidence": 0.2,
+            "reason": "values look like free text"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "value",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "date",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "metric",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      },
+      {
+        "columnKey": "Column_2",
+        "columnLabel": "Column_2",
+        "role": "text",
+        "confidence": 0.3,
+        "reason": "values look categorical",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "category",
+            "confidence": 0.3,
+            "reason": "values look categorical"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "text",
+            "confidence": 0.2,
+            "reason": "values look like free text"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "value",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "date",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "metric",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      },
+      {
+        "columnKey": "Column_3",
+        "columnLabel": "Column_3",
+        "role": "text",
+        "confidence": 0.3,
+        "reason": "values look categorical",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "category",
+            "confidence": 0.3,
+            "reason": "values look categorical"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "text",
+            "confidence": 0.2,
+            "reason": "values look like free text"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "value",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "date",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "metric",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      },
+      {
+        "columnKey": "Column_4",
+        "columnLabel": "Column_4",
+        "role": "date",
+        "confidence": 0.65,
+        "reason": "values look like dates",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "date",
+            "confidence": 0.65,
+            "reason": "values look like dates"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "category",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "value",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "metric",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "text",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      },
+      {
+        "columnKey": "Column_5",
+        "columnLabel": "Column_5",
+        "role": "metric",
+        "confidence": 0.6,
+        "reason": "values are mostly numeric",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "metric",
+            "confidence": 0.6,
+            "reason": "values are mostly numeric"
+          },
+          {
+            "role": "value",
+            "confidence": 0.55,
+            "reason": "values are mostly numeric"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "category",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "date",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "text",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      },
+      {
+        "columnKey": "Column_6",
+        "columnLabel": "Column_6",
+        "role": "date",
+        "confidence": 0.65,
+        "reason": "values look like dates",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "date",
+            "confidence": 0.65,
+            "reason": "values look like dates"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "category",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "value",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "metric",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "text",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      },
+      {
+        "columnKey": "Column_7",
+        "columnLabel": "Column_7",
+        "role": "date",
+        "confidence": 0.65,
+        "reason": "values look like dates",
+        "manual": false,
+        "candidates": [
+          {
+            "role": "date",
+            "confidence": 0.65,
+            "reason": "values look like dates"
+          },
+          {
+            "role": "metric",
+            "confidence": 0.6,
+            "reason": "values are mostly numeric"
+          },
+          {
+            "role": "value",
+            "confidence": 0.55,
+            "reason": "values are mostly numeric"
+          },
+          {
+            "role": "id",
+            "confidence": 0.25,
+            "reason": "values are relatively unique"
+          },
+          {
+            "role": "ignore",
+            "confidence": 0.05,
+            "reason": "fallback role"
+          },
+          {
+            "role": "scenario",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "division",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subDivision",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "category",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "lineItem",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "type",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "subcategory",
+            "confidence": 0,
+            "reason": "fallback"
+          },
+          {
+            "role": "text",
+            "confidence": 0,
+            "reason": "fallback"
+          }
+        ]
+      }
+    ]
+  },
+  "transformationLog": [
+    {
+      "type": "sheet_selected",
+      "message": "Using Project Management Data as the active sheet."
+    },
+    {
+      "type": "mapping_inference",
+      "message": "Generated suggested column roles for dashboarding."
+    },
+    {
+      "type": "integrity_check",
+      "message": "Compared input and cleaned row counts to preserve data fidelity.",
+      "meta": {
+        "inputRows": 48,
+        "outputRows": 48
+      }
+    }
+  ],
+  "preview": {
+    "headers": [
+      "Excel Sample Data",
+      "Column_2",
+      "Column_3",
+      "Column_4",
+      "Column_5",
+      "Column_6",
+      "Column_7"
+    ],
+    "rows": [
+      {
+        "Excel Sample Data": "Project Management Data",
+        "Column_2": null,
+        "Column_3": null,
+        "Column_4": null,
+        "Column_5": null,
+        "Column_6": null,
+        "Column_7": null
+      },
+      {
+        "Excel Sample Data": "Project Name",
+        "Column_2": "Task Name",
+        "Column_3": "Assigned to",
+        "Column_4": "Start Date",
+        "Column_5": "Days Required",
+        "Column_6": "End Date",
+        "Column_7": "Progress"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Market Research",
+        "Column_3": "Alice",
+        "Column_4": "1/1/24",
+        "Column_5": "13",
+        "Column_6": "1/14/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Content Creation",
+        "Column_3": "Bob",
+        "Column_4": "1/14/24",
+        "Column_5": "14",
+        "Column_6": "1/28/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Social Media Planning",
+        "Column_3": "Charlie",
+        "Column_4": "1/28/24",
+        "Column_5": "22",
+        "Column_6": "2/19/24",
+        "Column_7": "45%"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Campaign Analysis",
+        "Column_3": "Daisy",
+        "Column_4": "2/18/24",
+        "Column_5": "25",
+        "Column_6": "3/14/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Product Dev",
+        "Column_2": "Prototype Development",
+        "Column_3": "Ethan",
+        "Column_4": "1/2/24",
+        "Column_5": "18",
+        "Column_6": "1/20/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Product Dev",
+        "Column_2": "Quality Assurance",
+        "Column_3": "Fiona",
+        "Column_4": "1/20/24",
+        "Column_5": "10",
+        "Column_6": "1/30/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Product Dev",
+        "Column_2": "User Interface Design",
+        "Column_3": "Gabriel",
+        "Column_4": "2/4/24",
+        "Column_5": "25",
+        "Column_6": "2/29/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Customer Svc",
+        "Column_2": "Service Improvement",
+        "Column_3": "Hannah",
+        "Column_4": "2/1/24",
+        "Column_5": "22",
+        "Column_6": "2/23/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Customer Svc",
+        "Column_2": "Ticket Resolution",
+        "Column_3": "Ian",
+        "Column_4": "2/24/24",
+        "Column_5": "25",
+        "Column_6": "3/20/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Customer Svc",
+        "Column_2": "Customer Feedback",
+        "Column_3": "Julia",
+        "Column_4": "3/21/24",
+        "Column_5": "30",
+        "Column_6": "4/20/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Financial",
+        "Column_2": "Budget Analysis",
+        "Column_3": "Kevin",
+        "Column_4": "2/2/24",
+        "Column_5": "22",
+        "Column_6": "2/24/24",
+        "Column_7": "10%"
+      },
+      {
+        "Excel Sample Data": "Financial",
+        "Column_2": "Financial Reporting",
+        "Column_3": "Mark",
+        "Column_4": "2/13/24",
+        "Column_5": "21",
+        "Column_6": "2/9/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Financial",
+        "Column_2": "Investment Planning",
+        "Column_3": "Mark",
+        "Column_4": "3/19/24",
+        "Column_5": "25",
+        "Column_6": "4/13/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Research",
+        "Column_2": "Market Trends Analysis",
+        "Column_3": "Nathan",
+        "Column_4": "1/2/24",
+        "Column_5": "23",
+        "Column_6": "1/25/24",
+        "Column_7": "50%"
+      },
+      {
+        "Excel Sample Data": "Research",
+        "Column_2": "Data Collection",
+        "Column_3": "Olivia",
+        "Column_4": "1/26/24",
+        "Column_5": "32",
+        "Column_6": "2/27/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Research",
+        "Column_2": "Research Paper Writing",
+        "Column_3": "Peter",
+        "Column_4": "2/28/24",
+        "Column_5": "27",
+        "Column_6": "3/26/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Development",
+        "Column_2": "Software Development",
+        "Column_3": "Quinn",
+        "Column_4": "1/2/24",
+        "Column_5": "36",
+        "Column_6": "2/7/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Development",
+        "Column_2": "Feature Enhancement",
+        "Column_3": "Rachel",
+        "Column_4": "2/8/24",
+        "Column_5": "34",
+        "Column_6": "3/13/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Development",
+        "Column_2": "Code Review",
+        "Column_3": "Sam",
+        "Column_4": "3/14/24",
+        "Column_5": "30",
+        "Column_6": "4/13/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Production",
+        "Column_2": "Manufacturing",
+        "Column_3": "Tim",
+        "Column_4": "1/3/24",
+        "Column_5": "47",
+        "Column_6": "2/19/24",
+        "Column_7": "30%"
+      },
+      {
+        "Excel Sample Data": "Production",
+        "Column_2": "Quality Control",
+        "Column_3": "Ursula",
+        "Column_4": "2/17/24",
+        "Column_5": "27",
+        "Column_6": "3/15/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Production",
+        "Column_2": "Packaging Design",
+        "Column_3": "Victor",
+        "Column_4": "3/14/24",
+        "Column_5": "22",
+        "Column_6": "4/5/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Sales",
+        "Column_2": "Lead Generation",
+        "Column_3": "Wendy",
+        "Column_4": "1/3/24",
+        "Column_5": "60",
+        "Column_6": "3/3/24",
+        "Column_7": "70%"
+      }
+    ],
+    "totalRows": 48,
+    "truncated": true
+  },
+  "summary": {
+    "totalRows": 48,
+    "totalColumns": 7,
+    "duplicateRowsRemoved": 0,
+    "nullCellCount": 6,
+    "selectedSheet": "Project Management Data",
+    "availableSheets": [
+      {
+        "name": "Project Management Data",
+        "rowCount": 48,
+        "columnCount": 7
+      }
+    ]
+  },
+  "genericDataset": {
+    "title": "Project Management Sample Data",
+    "rows": [
+      {
+        "Excel Sample Data": "Project Management Data",
+        "Column_2": null,
+        "Column_3": null,
+        "Column_4": null,
+        "Column_5": null,
+        "Column_6": null,
+        "Column_7": null
+      },
+      {
+        "Excel Sample Data": "Project Name",
+        "Column_2": "Task Name",
+        "Column_3": "Assigned to",
+        "Column_4": "Start Date",
+        "Column_5": "Days Required",
+        "Column_6": "End Date",
+        "Column_7": "Progress"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Market Research",
+        "Column_3": "Alice",
+        "Column_4": "1/1/24",
+        "Column_5": "13",
+        "Column_6": "1/14/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Content Creation",
+        "Column_3": "Bob",
+        "Column_4": "1/14/24",
+        "Column_5": "14",
+        "Column_6": "1/28/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Social Media Planning",
+        "Column_3": "Charlie",
+        "Column_4": "1/28/24",
+        "Column_5": "22",
+        "Column_6": "2/19/24",
+        "Column_7": "45%"
+      },
+      {
+        "Excel Sample Data": "Marketing",
+        "Column_2": "Campaign Analysis",
+        "Column_3": "Daisy",
+        "Column_4": "2/18/24",
+        "Column_5": "25",
+        "Column_6": "3/14/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Product Dev",
+        "Column_2": "Prototype Development",
+        "Column_3": "Ethan",
+        "Column_4": "1/2/24",
+        "Column_5": "18",
+        "Column_6": "1/20/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Product Dev",
+        "Column_2": "Quality Assurance",
+        "Column_3": "Fiona",
+        "Column_4": "1/20/24",
+        "Column_5": "10",
+        "Column_6": "1/30/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Product Dev",
+        "Column_2": "User Interface Design",
+        "Column_3": "Gabriel",
+        "Column_4": "2/4/24",
+        "Column_5": "25",
+        "Column_6": "2/29/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Customer Svc",
+        "Column_2": "Service Improvement",
+        "Column_3": "Hannah",
+        "Column_4": "2/1/24",
+        "Column_5": "22",
+        "Column_6": "2/23/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Customer Svc",
+        "Column_2": "Ticket Resolution",
+        "Column_3": "Ian",
+        "Column_4": "2/24/24",
+        "Column_5": "25",
+        "Column_6": "3/20/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Customer Svc",
+        "Column_2": "Customer Feedback",
+        "Column_3": "Julia",
+        "Column_4": "3/21/24",
+        "Column_5": "30",
+        "Column_6": "4/20/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Financial",
+        "Column_2": "Budget Analysis",
+        "Column_3": "Kevin",
+        "Column_4": "2/2/24",
+        "Column_5": "22",
+        "Column_6": "2/24/24",
+        "Column_7": "10%"
+      },
+      {
+        "Excel Sample Data": "Financial",
+        "Column_2": "Financial Reporting",
+        "Column_3": "Mark",
+        "Column_4": "2/13/24",
+        "Column_5": "21",
+        "Column_6": "2/9/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Financial",
+        "Column_2": "Investment Planning",
+        "Column_3": "Mark",
+        "Column_4": "3/19/24",
+        "Column_5": "25",
+        "Column_6": "4/13/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Research",
+        "Column_2": "Market Trends Analysis",
+        "Column_3": "Nathan",
+        "Column_4": "1/2/24",
+        "Column_5": "23",
+        "Column_6": "1/25/24",
+        "Column_7": "50%"
+      },
+      {
+        "Excel Sample Data": "Research",
+        "Column_2": "Data Collection",
+        "Column_3": "Olivia",
+        "Column_4": "1/26/24",
+        "Column_5": "32",
+        "Column_6": "2/27/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Research",
+        "Column_2": "Research Paper Writing",
+        "Column_3": "Peter",
+        "Column_4": "2/28/24",
+        "Column_5": "27",
+        "Column_6": "3/26/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Development",
+        "Column_2": "Software Development",
+        "Column_3": "Quinn",
+        "Column_4": "1/2/24",
+        "Column_5": "36",
+        "Column_6": "2/7/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Development",
+        "Column_2": "Feature Enhancement",
+        "Column_3": "Rachel",
+        "Column_4": "2/8/24",
+        "Column_5": "34",
+        "Column_6": "3/13/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Development",
+        "Column_2": "Code Review",
+        "Column_3": "Sam",
+        "Column_4": "3/14/24",
+        "Column_5": "30",
+        "Column_6": "4/13/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Production",
+        "Column_2": "Manufacturing",
+        "Column_3": "Tim",
+        "Column_4": "1/3/24",
+        "Column_5": "47",
+        "Column_6": "2/19/24",
+        "Column_7": "30%"
+      },
+      {
+        "Excel Sample Data": "Production",
+        "Column_2": "Quality Control",
+        "Column_3": "Ursula",
+        "Column_4": "2/17/24",
+        "Column_5": "27",
+        "Column_6": "3/15/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Production",
+        "Column_2": "Packaging Design",
+        "Column_3": "Victor",
+        "Column_4": "3/14/24",
+        "Column_5": "22",
+        "Column_6": "4/5/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Sales",
+        "Column_2": "Lead Generation",
+        "Column_3": "Wendy",
+        "Column_4": "1/3/24",
+        "Column_5": "60",
+        "Column_6": "3/3/24",
+        "Column_7": "70%"
+      },
+      {
+        "Excel Sample Data": "Sales",
+        "Column_2": "Client Meetings",
+        "Column_3": "Xavier",
+        "Column_4": "1/6/24",
+        "Column_5": "20",
+        "Column_6": "1/26/24",
+        "Column_7": "78%"
+      },
+      {
+        "Excel Sample Data": "Sales",
+        "Column_2": "Contract Negotiation",
+        "Column_3": "Yvette",
+        "Column_4": "2/3/24",
+        "Column_5": "35",
+        "Column_6": "3/9/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Support",
+        "Column_2": "Technical Support",
+        "Column_3": "Zoe",
+        "Column_4": "1/1/24",
+        "Column_5": "25",
+        "Column_6": "1/26/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Support",
+        "Column_2": "Bug Fixes",
+        "Column_3": "Aaron",
+        "Column_4": "1/27/24",
+        "Column_5": "31",
+        "Column_6": "2/27/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Support",
+        "Column_2": "Software Updates",
+        "Column_3": "Bella",
+        "Column_4": "3/2/24",
+        "Column_5": "22",
+        "Column_6": "3/24/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Operations",
+        "Column_2": "Process Optimization",
+        "Column_3": "Calvin",
+        "Column_4": "1/3/24",
+        "Column_5": "30",
+        "Column_6": "2/2/24",
+        "Column_7": "40%"
+      },
+      {
+        "Excel Sample Data": "Operations",
+        "Column_2": "Inventory Management",
+        "Column_3": "Diane",
+        "Column_4": "2/3/24",
+        "Column_5": "25",
+        "Column_6": "2/28/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Operations",
+        "Column_2": "Facility Maintenance",
+        "Column_3": "Edward",
+        "Column_4": "2/29/24",
+        "Column_5": "20",
+        "Column_6": "3/20/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Consulting",
+        "Column_2": "Strategic Planning",
+        "Column_3": "Fiona",
+        "Column_4": "1/2/24",
+        "Column_5": "35",
+        "Column_6": "2/6/24",
+        "Column_7": "60%"
+      },
+      {
+        "Excel Sample Data": "Consulting",
+        "Column_2": "Market Expansion",
+        "Column_3": "Gary",
+        "Column_4": "2/2/24",
+        "Column_5": "32",
+        "Column_6": "3/5/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Consulting",
+        "Column_2": "Client Advisory",
+        "Column_3": "Helen",
+        "Column_4": "3/6/24",
+        "Column_5": "25",
+        "Column_6": "3/31/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Training",
+        "Column_2": "Employee Training",
+        "Column_3": "Isaac",
+        "Column_4": "1/4/24",
+        "Column_5": "27",
+        "Column_6": "1/31/24",
+        "Column_7": "80%"
+      },
+      {
+        "Excel Sample Data": "Training",
+        "Column_2": "Certification Programs",
+        "Column_3": "Jane",
+        "Column_4": "1/28/24",
+        "Column_5": "30",
+        "Column_6": "2/27/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Training",
+        "Column_2": "Skill Development",
+        "Column_3": "Kyle",
+        "Column_4": "2/28/24",
+        "Column_5": "22",
+        "Column_6": "3/21/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Events",
+        "Column_2": "Event Planning",
+        "Column_3": "Laura",
+        "Column_4": "1/3/24",
+        "Column_5": "25",
+        "Column_6": "1/28/24",
+        "Column_7": "30%"
+      },
+      {
+        "Excel Sample Data": "Events",
+        "Column_2": "Conference Management",
+        "Column_3": "Mike",
+        "Column_4": "2/3/24",
+        "Column_5": "20",
+        "Column_6": "2/23/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Events",
+        "Column_2": "Sponsorship Coordinatio",
+        "Column_3": "n Nancy",
+        "Column_4": "2/24/24",
+        "Column_5": "35",
+        "Column_6": "3/30/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Logistics",
+        "Column_2": "Supply Chain Management",
+        "Column_3": "Oscar",
+        "Column_4": "1/3/24",
+        "Column_5": "25",
+        "Column_6": "1/28/24",
+        "Column_7": "50%"
+      },
+      {
+        "Excel Sample Data": "Logistics",
+        "Column_2": "Transportation Planning",
+        "Column_3": "Patricia",
+        "Column_4": "1/29/24",
+        "Column_5": "30",
+        "Column_6": "2/28/24",
+        "Column_7": "100%"
+      },
+      {
+        "Excel Sample Data": "Logistics",
+        "Column_2": "Inventory Optimization",
+        "Column_3": "Quentin",
+        "Column_4": "3/29/24",
+        "Column_5": "20",
+        "Column_6": "4/18/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Engineering",
+        "Column_2": "Product Design",
+        "Column_3": "Rachel",
+        "Column_4": "1/2/24",
+        "Column_5": "25",
+        "Column_6": "1/27/24",
+        "Column_7": "20%"
+      },
+      {
+        "Excel Sample Data": "Engineering",
+        "Column_2": "System Integration",
+        "Column_3": "Sam",
+        "Column_4": "2/2/24",
+        "Column_5": "22",
+        "Column_6": "2/24/24",
+        "Column_7": "0%"
+      },
+      {
+        "Excel Sample Data": "Engineering",
+        "Column_2": "Prototype Testing",
+        "Column_3": "Tom",
+        "Column_4": "2/23/24",
+        "Column_5": "27",
+        "Column_6": "3/21/24",
+        "Column_7": "0%"
+      }
+    ],
+    "columns": [
+      {
+        "key": "Excel Sample Data",
+        "label": "Excel Sample Data",
+        "role": "text",
+        "kind": "text",
+        "nullRate": 0,
+        "uniqueCount": 17
+      },
+      {
+        "key": "Column_2",
+        "label": "Column_2",
+        "role": "text",
+        "kind": "text",
+        "nullRate": 0.020833333333333332,
+        "uniqueCount": 47
+      },
+      {
+        "key": "Column_3",
+        "label": "Column_3",
+        "role": "text",
+        "kind": "text",
+        "nullRate": 0.020833333333333332,
+        "uniqueCount": 43
+      },
+      {
+        "key": "Column_4",
+        "label": "Column_4",
+        "role": "date",
+        "kind": "date",
+        "nullRate": 0.020833333333333332,
+        "uniqueCount": 30
+      },
+      {
+        "key": "Column_5",
+        "label": "Column_5",
+        "role": "metric",
+        "kind": "number",
+        "nullRate": 0.020833333333333332,
+        "uniqueCount": 19
+      },
+      {
+        "key": "Column_6",
+        "label": "Column_6",
+        "role": "date",
+        "kind": "date",
+        "nullRate": 0.020833333333333332,
+        "uniqueCount": 35
+      },
+      {
+        "key": "Column_7",
+        "label": "Column_7",
+        "role": "date",
+        "kind": "number",
+        "nullRate": 0.020833333333333332,
+        "uniqueCount": 13
+      }
+    ],
+    "inference": {
+      "dateField": "Column_4",
+      "metricFields": [
+        "Column_5"
+      ],
+      "categoryFields": [],
+      "idFields": [],
+      "recommendedMetric": "Column_5",
+      "recommendedCategory": null
+    },
+    "summary": {
+      "totalRows": 48,
+      "totalColumns": 7,
+      "duplicateRowsRemoved": 0,
+      "nullCellCount": 6,
+      "selectedSheet": "Project Management Data",
+      "availableSheets": [
+        {
+          "name": "Project Management Data",
+          "rowCount": 48,
+          "columnCount": 7
+        }
+      ]
+    }
+  },
+  "misDataset": null
+}
